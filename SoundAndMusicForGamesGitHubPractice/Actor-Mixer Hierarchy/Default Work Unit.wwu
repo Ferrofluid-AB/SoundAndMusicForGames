@@ -95,6 +95,29 @@
 						<ActiveSource Name="KG_Shoe_Lace_Front_Whip" ID="{216BB35E-BFC0-470E-AFE2-E526A28C2286}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Alex Beck" ID="{697D82B3-8F10-424C-B5F2-A91807BF87A9}" ShortID="18798822">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{636E3EB0-A36B-4901-B426-30C91E416529}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{944ED653-36A3-40D5-B681-6A87B961589C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="64939__syna-max__wilhelm_scream" ID="{125D3898-DD6C-4DF3-B9D6-E380FFD59AA5}">
+							<Language>SFX</Language>
+							<AudioFile>64939__syna-max__wilhelm_scream.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="9664295"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="64939__syna-max__wilhelm_scream" ID="{125D3898-DD6C-4DF3-B9D6-E380FFD59AA5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
